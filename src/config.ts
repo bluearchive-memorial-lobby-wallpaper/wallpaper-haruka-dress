@@ -87,8 +87,9 @@ export const MODEL = {
   },
 } as const;
 
-// Example dialogue placeholders. Replace the ids with the real event ids used
-// by the voice files and fill in the localized subtitle text.
+// Haruka (Dress) has five playable Talk animations and ten JP voice events.
+// Keep the event mapping explicit: the default Haruka snapshot uses a
+// different prefix and must never be silently substituted for this variant.
 export const DIALOGUES: readonly DialogueDefinition[] = [
   {
     "index": 1,
@@ -221,6 +222,24 @@ export const DIALOGUES: readonly DialogueDefinition[] = [
     ]
   }
 ] as const;
+
+const EXPECTED_DIALOGUE_EVENT_IDS = [
+  "ch0247_memoriallobby_1_1",
+  "ch0247_memoriallobby_1_2",
+  "ch0247_memoriallobby_2_1",
+  "ch0247_memoriallobby_2_2",
+  "ch0247_memoriallobby_3_1",
+  "ch0247_memoriallobby_3_2",
+  "ch0247_memoriallobby_4_1",
+  "ch0247_memoriallobby_4_2",
+  "ch0247_memoriallobby_5_1",
+  "ch0247_memoriallobby_5_2",
+] as const;
+
+const dialogueEventIds = DIALOGUES.flatMap((dialogue) => dialogue.lines.map((line) => line.id));
+if (DIALOGUES.length !== 5 || JSON.stringify(dialogueEventIds) !== JSON.stringify(EXPECTED_DIALOGUE_EVENT_IDS)) {
+  throw new Error("haruka_dress_dialogue_mapping_mismatch");
+}
 
 export function voicePath(eventId: string, locale: VoiceLocale): string {
   return `./assets/${PROJECT.slug}/audio/${locale}/${eventId.toLowerCase()}.ogg`;
