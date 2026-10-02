@@ -21,7 +21,7 @@ export const PROJECT = {
   editionLabel: `PUBLIC EDITION · ${__WALLPAPER_VERSION__}`,
 } as const;
 
-export const VOICE_LOCALES: readonly VoiceLocale[] = ["ja"];
+export const VOICE_LOCALES: readonly VoiceLocale[] = ["ja","ko"];
 export const SUBTITLE_LOCALES: readonly SubtitleLocale[] = ["ja"];
 
 export const BGM = {
@@ -101,18 +101,18 @@ export const DIALOGUES: readonly DialogueDefinition[] = [
         "id": "ch0247_memoriallobby_1_1",
         "text": {
           "zh-cn": "",
-          "ja": "……雑草が好きなのは、美しいからじゃ、ないです。",
-          "ko": "",
-          "en": ""
+          "ja": "い、いつでもいけます！",
+          "ko": "어, 언제든 가능합니다!",
+          "en": "A-Anytime!"
         }
       },
       {
         "id": "ch0247_memoriallobby_1_2",
         "text": {
           "zh-cn": "",
-          "ja": "私は、雑草の硬いところが好きなんです。",
-          "ko": "",
-          "en": ""
+          "ja": "な、なんでも\n言ってください……！",
+          "ko": "무, 무엇이든\n말씀해 주세요……!",
+          "en": "L-Let me know if there's anything you need...!"
         }
       }
     ]
@@ -127,18 +127,18 @@ export const DIALOGUES: readonly DialogueDefinition[] = [
         "id": "ch0247_memoriallobby_2_1",
         "text": {
           "zh-cn": "",
-          "ja": "どんな荒地でも強く根を張る、粘り強さ――",
-          "ko": "",
-          "en": ""
+          "ja": "あ、ありがとう\nございます……！",
+          "ko": "가, 감사합니다……!",
+          "en": "Th-Thank you..."
         }
       },
       {
         "id": "ch0247_memoriallobby_2_2",
         "text": {
           "zh-cn": "",
-          "ja": "それこそが、私の理想。",
-          "ko": "",
-          "en": ""
+          "ja": "えっ、あ、えっと……\n来てくださった\nことに対して、です。",
+          "ko": "그, 그러니까,\n와 주신…… 거요.",
+          "en": "...f-for, um...for coming here!"
         }
       }
     ]
@@ -153,18 +153,18 @@ export const DIALOGUES: readonly DialogueDefinition[] = [
         "id": "ch0247_memoriallobby_3_1",
         "text": {
           "zh-cn": "",
-          "ja": "美しくある必要はありません。",
-          "ko": "",
-          "en": ""
+          "ja": "なんだか大変な騒ぎに\nなっていますね……。",
+          "ko": "어쩐지 큰 소동이\n벌어지고 있네요…….",
+          "en": "Things turned out really crazy..."
         }
       },
       {
         "id": "ch0247_memoriallobby_3_2",
         "text": {
           "zh-cn": "",
-          "ja": "輝かなくてもいいんです。",
-          "ko": "",
-          "en": ""
+          "ja": "これを楽しいと\n思うのは……\n変、でしょうか？",
+          "ko": "……어쩐지 즐겁다면 저,\n이상한 걸까요? ",
+          "en": "...Is it weird that I enjoyed it, in a way? "
         }
       }
     ]
@@ -179,18 +179,18 @@ export const DIALOGUES: readonly DialogueDefinition[] = [
         "id": "ch0247_memoriallobby_4_1",
         "text": {
           "zh-cn": "",
-          "ja": "大切な人と、ただ過ごせるなら……。",
-          "ko": "",
-          "en": ""
+          "ja": "そういえば……\nオペラ……",
+          "ko": "갑자기 궁금한 건데……\n오페라는……",
+          "en": "I'm...a little curious now..."
         }
       },
       {
         "id": "ch0247_memoriallobby_4_2",
         "text": {
           "zh-cn": "",
-          "ja": "せ、先生と一緒にいられるのなら……。",
-          "ko": "",
-          "en": ""
+          "ja": "どんな\n内容だったんでしょう？",
+          "ko": "무슨 내용이었을까요?",
+          "en": "What was the opera about?"
         }
       }
     ]
