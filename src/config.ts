@@ -22,7 +22,7 @@ export const PROJECT = {
 } as const;
 
 export const VOICE_LOCALES: readonly VoiceLocale[] = ["ja","ko"];
-export const SUBTITLE_LOCALES: readonly SubtitleLocale[] = ["ja"];
+export const SUBTITLE_LOCALES: readonly SubtitleLocale[] = ["ja","ko","en"];
 
 export const BGM = {
   title: "Daily Routine 247",
@@ -206,8 +206,8 @@ export const DIALOGUES: readonly DialogueDefinition[] = [
         "text": {
           "zh-cn": "",
           "ja": "私は、それで……。",
-          "ko": "",
-          "en": ""
+          "ko": "私は、それで……。",
+          "en": "私は、それで……。"
         }
       },
       {
@@ -215,8 +215,8 @@ export const DIALOGUES: readonly DialogueDefinition[] = [
         "text": {
           "zh-cn": "",
           "ja": "……好き、なんです。",
-          "ko": "",
-          "en": ""
+          "ko": "……好き、なんです。",
+          "en": "……好き、なんです。"
         }
       }
     ]
