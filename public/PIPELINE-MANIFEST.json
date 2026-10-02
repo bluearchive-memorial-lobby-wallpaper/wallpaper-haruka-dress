@@ -1,0 +1,372 @@
+{
+  "schemaVersion": 1,
+  "kind": "pipeline-binary-package",
+  "immutable": true,
+  "variantId": "dress",
+  "canonicalId": "haruka-dress",
+  "studentId": "haruka",
+  "runId": "run-000000000157",
+  "runInfo": {
+    "alias": "regional-preset-update-and-publish",
+    "stages": [
+      "regional-preset-preflight",
+      "acquire-resources",
+      "prepare-assets",
+      "validate-structure",
+      "commit-regional-preset",
+      "observe-wp",
+      "plan-wp-release",
+      "bump-wp-version",
+      "tag-wp",
+      "update-description",
+      "build",
+      "static-test",
+      "browser",
+      "wallpaper-engine",
+      "package-check",
+      "commit-github",
+      "gate-publish",
+      "official-editor-pre-submit",
+      "official-editor-ui-pre-submit",
+      "official-editor-submit",
+      "tag-workshop",
+      "push-github",
+      "release-finalize"
+    ]
+  },
+  "versionTag": "v1.1.0",
+  "projectId": "wallpaper-haruka-dress",
+  "package": {
+    "name": "haruka-dress-wallpaper",
+    "version": "1.1.0"
+  },
+  "files": [
+    {
+      "path": "assets/haruka-dress/audio/ja/ch0247_lobby_1.ogg",
+      "sha256": "2cef44eacc671e99025eb57b7c871acbe6f40d2ff2e5b30c5116a1ac7aabf9a1",
+      "size": 42149
+    },
+    {
+      "path": "assets/haruka-dress/audio/ja/ch0247_lobby_2.ogg",
+      "sha256": "165255b875915a12c0925a658486ea5f8bef629a98d5c5152287d78c60b5dcb7",
+      "size": 43997
+    },
+    {
+      "path": "assets/haruka-dress/audio/ja/ch0247_lobby_3_1.ogg",
+      "sha256": "32082ee68f2f42f9cdec5751e4ab16fcf8cd7ece9545e6bb6b3c95e9aa6e3c19",
+      "size": 22558
+    },
+    {
+      "path": "assets/haruka-dress/audio/ja/ch0247_lobby_3_2.ogg",
+      "sha256": "c235d24dc5aea5afe7d8380ef375195975120a9a6ab955819e54f7c040c53336",
+      "size": 41471
+    },
+    {
+      "path": "assets/haruka-dress/audio/ja/ch0247_lobby_4.ogg",
+      "sha256": "105342b4f1e08f0e6843735a187c3e8942f8e844996bdaeb3b1c2d9152f39083",
+      "size": 50047
+    },
+    {
+      "path": "assets/haruka-dress/audio/ja/ch0247_lobby_5.ogg",
+      "sha256": "b18f65af67b38f68b6417949bfa11f141bfbc70e1b5da75b70bf9c6d83521f7b",
+      "size": 41464
+    },
+    {
+      "path": "assets/haruka-dress/audio/ja/ch0247_login_1_1.ogg",
+      "sha256": "aae2bdbd110002bd631f0db8e08289be07ae1f8720d14107a00a4004014dd26b",
+      "size": 22763
+    },
+    {
+      "path": "assets/haruka-dress/audio/ja/ch0247_login_1_2.ogg",
+      "sha256": "0e12a837e56fd1e7155662395ba876a84e3e230fd05fc92a5d449cd5a9229ac5",
+      "size": 58018
+    },
+    {
+      "path": "assets/haruka-dress/audio/ja/ch0247_login_2_1.ogg",
+      "sha256": "ddae5ed950a0cdcb1be88b3d70093fe05df3154f83d11f015c84415f8b2197c9",
+      "size": 23254
+    },
+    {
+      "path": "assets/haruka-dress/audio/ja/ch0247_login_2_2.ogg",
+      "sha256": "0555f4e1d5c5ae4ab963e2726daaa7d9f7a0def4740686433ddb0daaf86a6251",
+      "size": 52273
+    },
+    {
+      "path": "assets/haruka-dress/audio/ja/ch0247_memoriallobby_1_1.ogg",
+      "sha256": "1fc1db95c93dfcb8c2d788afdb582463b50e2837b3dbeb96a584a998be5dc95e",
+      "size": 43768
+    },
+    {
+      "path": "assets/haruka-dress/audio/ja/ch0247_memoriallobby_1_2.ogg",
+      "sha256": "46a58320e24e475fe5270d8c69f4af369296cc96148b96d1d65adcbd977aa697",
+      "size": 37026
+    },
+    {
+      "path": "assets/haruka-dress/audio/ja/ch0247_memoriallobby_2_1.ogg",
+      "sha256": "14a70b71bf52d09640cd456cda2bf3b20d7d1c6588ea38665f6e6c2dd527276f",
+      "size": 37551
+    },
+    {
+      "path": "assets/haruka-dress/audio/ja/ch0247_memoriallobby_2_2.ogg",
+      "sha256": "80ee24768048410e74ef770585efe6099f6091b6d5bb841d3bd565c7bf6edbb7",
+      "size": 26398
+    },
+    {
+      "path": "assets/haruka-dress/audio/ja/ch0247_memoriallobby_3_1.ogg",
+      "sha256": "41011b0b1b5dac5f3bc2fa2c5ff6e773cca8705ffcebe130a81be26fb6772bcc",
+      "size": 22373
+    },
+    {
+      "path": "assets/haruka-dress/audio/ja/ch0247_memoriallobby_3_2.ogg",
+      "sha256": "8490935124e6aa77ff805100f860a62b541efda0aa3f937da9b3ce977f8f6599",
+      "size": 20383
+    },
+    {
+      "path": "assets/haruka-dress/audio/ja/ch0247_memoriallobby_4_1.ogg",
+      "sha256": "5e9066c257143a2f2f8786ea4369d10dddcd75621dee1b145b4ac5d278dcd7bd",
+      "size": 31896
+    },
+    {
+      "path": "assets/haruka-dress/audio/ja/ch0247_memoriallobby_4_2.ogg",
+      "sha256": "623c5d564710845cce7b362e93d8b34c212723a673b5a8c86fab105363aca52f",
+      "size": 36970
+    },
+    {
+      "path": "assets/haruka-dress/audio/ja/ch0247_memoriallobby_5_1.ogg",
+      "sha256": "95eecdaeef5bfb76de0aec4296dcbe6a8f1f6b1b3d56044760bbd26e79b7aacd",
+      "size": 23299
+    },
+    {
+      "path": "assets/haruka-dress/audio/ja/ch0247_memoriallobby_5_2.ogg",
+      "sha256": "cbedd0e9e85baf7ab42697c5a08027dc852fdb332b369bafba65c0a7873bcd52",
+      "size": 22202
+    },
+    {
+      "path": "assets/haruka-dress/audio/ja/ch0247_season_birthday_1.ogg",
+      "sha256": "024923834bd3cebd0a075c646183aceeed4369f4e8acded5ef82d95325dc0ade",
+      "size": 61059
+    },
+    {
+      "path": "assets/haruka-dress/audio/ja/ch0247_season_birthday_2.ogg",
+      "sha256": "c0be5e5ce71da13d38884250c4e9fb88c7f9f9391a1ccb262eef31776b05b5ab",
+      "size": 48309
+    },
+    {
+      "path": "assets/haruka-dress/audio/ja/ch0247_season_birthday_player_1.ogg",
+      "sha256": "d4ef43b2d88e4c416f1e397bc3d864ae33e88a2a1293a9614d500be5dbf3d6ea",
+      "size": 30195
+    },
+    {
+      "path": "assets/haruka-dress/audio/ja/ch0247_season_birthday_player_2.ogg",
+      "sha256": "f94bacac458e917f51896c86549eb359da2cb7ca3b34514c54cfdcfe4d4e928a",
+      "size": 54921
+    },
+    {
+      "path": "assets/haruka-dress/audio/ja/ch0247_season_halloween_1.ogg",
+      "sha256": "64ffcdb2eb23290c9672834752dca77c55fcbc31580edf24f10f61e5ba3e7aed",
+      "size": 50128
+    },
+    {
+      "path": "assets/haruka-dress/audio/ja/ch0247_season_halloween_2.ogg",
+      "sha256": "2eccc90722209b06afe19f6a70b8a1692b48eddbfde212c4e209e059d9ef36d8",
+      "size": 24856
+    },
+    {
+      "path": "assets/haruka-dress/audio/ja/ch0247_season_newyear.ogg",
+      "sha256": "68582834bc1965b41c59d5d4e470c8b1bfe9d4226129060fd85fd5e7c7704052",
+      "size": 102381
+    },
+    {
+      "path": "assets/haruka-dress/audio/ja/ch0247_season_xmas_1.ogg",
+      "sha256": "8f853c04f75034c5029baaa365f8deba1bbba9ab179b398285b9cc472b9a6c1f",
+      "size": 19836
+    },
+    {
+      "path": "assets/haruka-dress/audio/ja/ch0247_season_xmas_2.ogg",
+      "sha256": "a8c426ff1e56e05fa4e2172da48a4cc643b68e4ce3d7f49801a10ed5b45792b8",
+      "size": 34732
+    },
+    {
+      "path": "assets/haruka-dress/audio/ja/ch0247_title.ogg",
+      "sha256": "e32fa30c1fa3f3a53ee6ed918252a4051fd1601331d277963b785effd1f2d1b3",
+      "size": 27060
+    },
+    {
+      "path": "assets/haruka-dress/audio/ko/ch0247_memoriallobby_1_1.ogg",
+      "sha256": "1fc1db95c93dfcb8c2d788afdb582463b50e2837b3dbeb96a584a998be5dc95e",
+      "size": 43768
+    },
+    {
+      "path": "assets/haruka-dress/audio/ko/ch0247_memoriallobby_1_2.ogg",
+      "sha256": "46a58320e24e475fe5270d8c69f4af369296cc96148b96d1d65adcbd977aa697",
+      "size": 37026
+    },
+    {
+      "path": "assets/haruka-dress/audio/ko/ch0247_memoriallobby_2_1.ogg",
+      "sha256": "14a70b71bf52d09640cd456cda2bf3b20d7d1c6588ea38665f6e6c2dd527276f",
+      "size": 37551
+    },
+    {
+      "path": "assets/haruka-dress/audio/ko/ch0247_memoriallobby_2_2.ogg",
+      "sha256": "80ee24768048410e74ef770585efe6099f6091b6d5bb841d3bd565c7bf6edbb7",
+      "size": 26398
+    },
+    {
+      "path": "assets/haruka-dress/audio/ko/ch0247_memoriallobby_3_1.ogg",
+      "sha256": "41011b0b1b5dac5f3bc2fa2c5ff6e773cca8705ffcebe130a81be26fb6772bcc",
+      "size": 22373
+    },
+    {
+      "path": "assets/haruka-dress/audio/ko/ch0247_memoriallobby_3_2.ogg",
+      "sha256": "8490935124e6aa77ff805100f860a62b541efda0aa3f937da9b3ce977f8f6599",
+      "size": 20383
+    },
+    {
+      "path": "assets/haruka-dress/audio/ko/ch0247_memoriallobby_4_1.ogg",
+      "sha256": "5e9066c257143a2f2f8786ea4369d10dddcd75621dee1b145b4ac5d278dcd7bd",
+      "size": 31896
+    },
+    {
+      "path": "assets/haruka-dress/audio/ko/ch0247_memoriallobby_4_2.ogg",
+      "sha256": "623c5d564710845cce7b362e93d8b34c212723a673b5a8c86fab105363aca52f",
+      "size": 36970
+    },
+    {
+      "path": "assets/haruka-dress/audio/ko/ch0247_memoriallobby_5_1.ogg",
+      "sha256": "95eecdaeef5bfb76de0aec4296dcbe6a8f1f6b1b3d56044760bbd26e79b7aacd",
+      "size": 23299
+    },
+    {
+      "path": "assets/haruka-dress/audio/ko/ch0247_memoriallobby_5_2.ogg",
+      "sha256": "cbedd0e9e85baf7ab42697c5a08027dc852fdb332b369bafba65c0a7873bcd52",
+      "size": 22202
+    },
+    {
+      "path": "assets/haruka-dress/bgm/my-character-bgm.flac",
+      "sha256": "0d0670aaf04f23637b435c08c3bc097193e0c225fc858a8aff635c824a92c243",
+      "size": 1216154
+    },
+    {
+      "path": "assets/haruka-dress/model-4k/CH0247_home_2.png",
+      "sha256": "4b6adf54cb3abf2a620be95b172da656e1da0be92ef821bbb3d56a8a5df8a1d2",
+      "size": 2230626
+    },
+    {
+      "path": "assets/haruka-dress/model-4k/CH0247_home_3.png",
+      "sha256": "f0427f8ebcd6393d23c016b2f2b8aaa4343f81e9000abd55052bc17b07663c94",
+      "size": 1161779
+    },
+    {
+      "path": "assets/haruka-dress/model-4k/CH0247_home.png",
+      "sha256": "3af58354468d54140c1d5a5f253428277dbd9e90b92c74d59f6b8c09edc9e9aa",
+      "size": 2782816
+    },
+    {
+      "path": "assets/haruka-dress/model-4k/my-character.atlas",
+      "sha256": "abcf92aa711ac8cdc7adedc78b23c69cba6c720ab351a10442c6a3e276f4ab5a",
+      "size": 11936
+    },
+    {
+      "path": "assets/haruka-dress/model-4k/my-character.skel",
+      "sha256": "ec4036363f66371f1dc8f0c78b3b7b95eb0f92935fa7dcdc0e6b54aceee44c37",
+      "size": 975753
+    },
+    {
+      "path": "assets/haruka-dress/model-8k/CH0247_home_2.png",
+      "sha256": "4b6adf54cb3abf2a620be95b172da656e1da0be92ef821bbb3d56a8a5df8a1d2",
+      "size": 2230626
+    },
+    {
+      "path": "assets/haruka-dress/model-8k/CH0247_home_3.png",
+      "sha256": "f0427f8ebcd6393d23c016b2f2b8aaa4343f81e9000abd55052bc17b07663c94",
+      "size": 1161779
+    },
+    {
+      "path": "assets/haruka-dress/model-8k/CH0247_home.png",
+      "sha256": "3af58354468d54140c1d5a5f253428277dbd9e90b92c74d59f6b8c09edc9e9aa",
+      "size": 2782816
+    },
+    {
+      "path": "assets/haruka-dress/model-8k/my-character.atlas",
+      "sha256": "abcf92aa711ac8cdc7adedc78b23c69cba6c720ab351a10442c6a3e276f4ab5a",
+      "size": 11936
+    },
+    {
+      "path": "assets/haruka-dress/model-8k/my-character.skel",
+      "sha256": "ec4036363f66371f1dc8f0c78b3b7b95eb0f92935fa7dcdc0e6b54aceee44c37",
+      "size": 975753
+    },
+    {
+      "path": "assets/haruka-dress/model/CH0247_home_2.png",
+      "sha256": "4b6adf54cb3abf2a620be95b172da656e1da0be92ef821bbb3d56a8a5df8a1d2",
+      "size": 2230626
+    },
+    {
+      "path": "assets/haruka-dress/model/CH0247_home_3.png",
+      "sha256": "f0427f8ebcd6393d23c016b2f2b8aaa4343f81e9000abd55052bc17b07663c94",
+      "size": 1161779
+    },
+    {
+      "path": "assets/haruka-dress/model/CH0247_home.png",
+      "sha256": "3af58354468d54140c1d5a5f253428277dbd9e90b92c74d59f6b8c09edc9e9aa",
+      "size": 2782816
+    },
+    {
+      "path": "assets/haruka-dress/model/my-character.atlas",
+      "sha256": "abcf92aa711ac8cdc7adedc78b23c69cba6c720ab351a10442c6a3e276f4ab5a",
+      "size": 11936
+    },
+    {
+      "path": "assets/haruka-dress/model/my-character.skel",
+      "sha256": "ec4036363f66371f1dc8f0c78b3b7b95eb0f92935fa7dcdc0e6b54aceee44c37",
+      "size": 975753
+    },
+    {
+      "path": "assets/index-BsuSLaSH.js",
+      "sha256": "2370adb6f93587ec81a85624e0e9cf4ea0753544e3f001859fdcf37e11a0ff15",
+      "size": 151589
+    },
+    {
+      "path": "assets/index-Dvrd4XH3.css",
+      "sha256": "7edd305a4bec7d64c5dd9193116f29e99151cbc63cf52bd0f2ecf1be9e02bcf6",
+      "size": 11894
+    },
+    {
+      "path": "index.html",
+      "sha256": "a3a01625e6fefb69a7a22feb73b058fa53c20398757a6b4104823cd56381e555",
+      "size": 614
+    },
+    {
+      "path": "logging-bootstrap.js",
+      "sha256": "241c98017502d02e3f2dfc874d3bd57a7899d4da6a45c21090bef3953cc98eef",
+      "size": 7693
+    },
+    {
+      "path": "OFFLINE-README.txt",
+      "sha256": "41f9e138d7bac0c2fe878961ced005d1fd5a7ca7777c81d9a4f7fc839e6ee44b",
+      "size": 1185
+    },
+    {
+      "path": "preview.gif",
+      "sha256": "30f3afabbe09d4e00b70f247a82c37c8d44ad5e2fb73a1f35ba0ba2e3b21148b",
+      "size": 845955
+    },
+    {
+      "path": "project.json",
+      "sha256": "e8bdbc6ed013860510e164c43bade91b964a5122e3c3a2de70a45810708e3b95",
+      "size": 17113
+    },
+    {
+      "path": "THIRD-PARTY-NOTICES.txt",
+      "sha256": "aa6382fc728b8ecdf735dc4c5945267e69e3d404320ba873eb7ed58c6d035db1",
+      "size": 1507
+    },
+    {
+      "path": "vendor/spine-webgl-4.2.js",
+      "sha256": "faccf252486de234c69a045aa6024b6688ded578eff09103607adfaedd7752b6",
+      "size": 554544
+    }
+  ],
+  "contentDigest": "c498f119b107dc1db7bc99bf415ad445d10f76e22a58f7f6c800ebd09501afb7",
+  "manifestDigest": "8f08bf973c0e81686d6912ec2a268041ce692e2f4a4a612c74a1328f5c6b4001"
+}
