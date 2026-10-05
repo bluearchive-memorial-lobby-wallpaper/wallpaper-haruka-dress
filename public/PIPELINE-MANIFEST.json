@@ -5,15 +5,10 @@
   "variantId": "dress",
   "canonicalId": "haruka-dress",
   "studentId": "haruka",
-  "runId": "run-000000000157",
+  "runId": "run-000000000165",
   "runInfo": {
-    "alias": "regional-preset-update-and-publish",
+    "alias": "update-acceptance-publish",
     "stages": [
-      "regional-preset-preflight",
-      "acquire-resources",
-      "prepare-assets",
-      "validate-structure",
-      "commit-regional-preset",
       "observe-wp",
       "plan-wp-release",
       "bump-wp-version",
@@ -34,11 +29,11 @@
       "release-finalize"
     ]
   },
-  "versionTag": "v1.1.0",
+  "versionTag": "v1.1.1",
   "projectId": "wallpaper-haruka-dress",
   "package": {
     "name": "haruka-dress-wallpaper",
-    "version": "1.1.0"
+    "version": "1.1.1"
   },
   "files": [
     {
@@ -322,8 +317,8 @@
       "size": 975753
     },
     {
-      "path": "assets/index-BsuSLaSH.js",
-      "sha256": "2370adb6f93587ec81a85624e0e9cf4ea0753544e3f001859fdcf37e11a0ff15",
+      "path": "assets/index-Bc4LebfG.js",
+      "sha256": "0f649e96bd87be55e2fbb7aa9c693b70c0bc2d6ef411fddf478e17233c346d89",
       "size": 151589
     },
     {
@@ -333,7 +328,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "a3a01625e6fefb69a7a22feb73b058fa53c20398757a6b4104823cd56381e555",
+      "sha256": "6b4e558b57b6117dc29529e462fabb12e38d9c05d86232e88b806bfda5e316b0",
       "size": 614
     },
     {
@@ -353,8 +348,8 @@
     },
     {
       "path": "project.json",
-      "sha256": "e8bdbc6ed013860510e164c43bade91b964a5122e3c3a2de70a45810708e3b95",
-      "size": 17113
+      "sha256": "478f70b66d531d283b09bf8e302b4130f891b0175a2088ef66e56c5cf6f0198d",
+      "size": 17242
     },
     {
       "path": "THIRD-PARTY-NOTICES.txt",
@@ -367,6 +362,6 @@
       "size": 554544
     }
   ],
-  "contentDigest": "c498f119b107dc1db7bc99bf415ad445d10f76e22a58f7f6c800ebd09501afb7",
-  "manifestDigest": "8f08bf973c0e81686d6912ec2a268041ce692e2f4a4a612c74a1328f5c6b4001"
+  "contentDigest": "6787a03eac410c70ace42ff4e460f26070f505b727e1d81a55ad037c683150ea",
+  "manifestDigest": "2bc87ea3bd6b46dec52bdbeb323dfd402342c0438ff2249c2c86f1d2c3b05491"
 }
