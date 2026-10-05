@@ -17,3 +17,10 @@ with `npm run generate:checksums` after the originals are placed in
 `local-assets/original/`.
 
 See docs/ASSET-PIPELINE.md for the full workflow.
+
+## Dialogue mapping
+
+The Japanese, Korean, and English memorial-lobby subtitle lines in
+`src/config.ts` are mapped from the official dialogue table for Haruka (Dress).
+The project does not use a cross-locale or legacy fallback source for these
+lines.
